@@ -1,0 +1,28 @@
+body {
+    background-color: grey;
+}
+
+* {
+    margin: 0;
+}
+
+#Topper {
+    width:100%;
+    border: none;
+}
+
+#BottomPart {
+    background-color: grey;
+    text-align: center;
+    border: none;
+}
+
+#Content {
+    margin: 30px 40px;
+    background-color: grey;
+    display: inline-block ;
+    width: 20%;
+    height: 20%;
+    border-radius: 50%;
+    border: 8px rgb(50, 50, 50) solid;
+}
