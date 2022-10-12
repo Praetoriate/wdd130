@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Anybody&family=Hubballi:ital,wght@0,400;0,700;1,400&display=swap');
+
 #content {
     max-width: 1600px;
     margin: 0 auto;
@@ -7,6 +9,11 @@ nav a {
     text-align: center;
     color: #C2C5AA;
     text-decoration: none;
+    padding: 35px;
+}
+
+#hero {
+    border: 1px solid #582F0E;
 }
 
 #hero-msg h1, #hero-msg h4 {
@@ -28,6 +35,11 @@ main section {
 
 body {
     background-color: #C2C5AA;
+    font-family: "Hubballi", Helvetica, sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
 }
 
 header {
@@ -43,6 +55,11 @@ nav a:hover {
     background-color: #A68A64;
     color: #414833;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
+    border: 2px solid #414833;
 }
 
 .book:hover, .join:hover {
@@ -52,26 +69,42 @@ nav a:hover {
 
 .msg {
     background-color: #A68A64;  
+    line-height: 1.5em;
+    padding: 35px;
 }
 
 footer {
     background-color: #414833;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 
 .home-title {
     color: black;
+    font-family: "Anybody", Helvetica, sans-serif;
+    font-size: 2em;
+    margin-top: 10px;
+    text-align: center;
 }
 
 h4 {
     color: black;
+    text-align: center;
+}
+
+h2 {
+    margin: 0;
 }
 
 .msg h2 {
     color: black;
+    font-family: "Anybody", Helvetica, sans-serif;
 }
 
 .msg p {
     color: black;
+    font-size: .8em;
+    padding-bottom: 15px;
 }
 
 footer h3 {
@@ -93,6 +126,7 @@ footer a:hover {
 
 .icon {
     width: 80px;
+    padding-top: 10px;
 }
 
 #hero-img {
@@ -106,3 +140,23 @@ footer p {
 footer p a:hover {
     text-decoration: underline;
 }    
+
+footer .social img {
+    padding-top: 15px;
+}
+
+#logo_link {
+    padding-top: 5px;
+}
+
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
+}
+
+.card-img {
+    border: 10px solid #582F0E;
+}
+
+main section img {
+    box-sizing: border-box;
+}
