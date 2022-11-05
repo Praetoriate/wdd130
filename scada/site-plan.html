@@ -90,9 +90,9 @@
       </h3>
       <!-- Think about how you want your navigation bar to look. In the site-plan.css file change the colors to your colors to get the look you desire. --> 
       <nav>
-        <a href="#">Home</a>
-        <a href="#">Page2</a>
-        <a href="#">Page3</a>
+        <a href="/scada/index.html">Home Page</a>
+        <a href="/scada/apphist.html">Applications & History</a>
+        <a href="/scada/components.html">SCADA Components</a>
       </nav>
       <hr>
       <h2>
@@ -100,13 +100,13 @@
       </h2>
       <div class="sitemap">
         <div class="sm-home">
-          Home
+          Home Page
         </div>
         <div class="sm-page2">
-          Uses <!-- change this -->
+          Applications and History <!-- change this -->
         </div>
         <div class="sm-page3">
-          Components  <!-- change this -->
+          SCADA Components  <!-- change this -->
         </div>
 
         <div class="top">
@@ -128,30 +128,77 @@
       </h2>
       <h3>Home page</h3>
       <p>
-        [Written copy for the home page here]
+        SCADA is an acronym and stands for Supervisory Control And Data Aquisition. 
+        This is also an explanation of what they purpose of the system is: 
+          -to provide control of equipment or processes.
+          -to collect and usually display historical data about the equipment or process.
+        A SCADA System sits in and on top of a control system. For example, imagine you have a light switch in your home for your living room lamp. That is a very simple control system for turning the light on and off. Now imagine that you want to be able to see on your computer if your light is currently on or off, toggle it on/off, and see a historical log of when it was turned on and off. That is where a SCADA System fits. It provides that additional layer to what would otherwise be a manual process (like having to get up off the couch to turn your light off).
+        A SCADA system integrates hardware and software components, each with their own specific function, to comprise a rich-feature control and monitoring system. This integration concept is so crucial that a company or person who designs, installs, or maintains a SCADA System is often called a ‘Systems Integrator’. To learn more about the components in a SCADA system, check out the Components page.
       </p>
       <p>Images for the Home page</p>
-        <img src="#" alt="image for homepage">
-        <img src="#" alt="image for homepage">
+        <img src="/scada/images/ControlRoom.jpg" alt="Example of a Control Room">
+        <img src="/scada/images/Integrator.jpg" alt="Typical Integrator">
 
       </ul>
-      <h3>[Page 2]</h3>
+      <h3>Applications and History</h3>
       <p>
-        [Written copy for the Page 2 here]
+        Where do you find SCADA Systems?
+            EEEeeeeeeverywhere…
+            But seriously, nearly every production or industrial process utilizes some flavour of SCADA system to monitor their controls. 
+            Manufacturing
+              Food & Beverage
+              Pharmaceutical
+            Factory / Production
+            Utilities
+              Water / Wastewater
+              Oil & Gas
+              Electrical
+            Transportation
+              Airports
+              Logistics
+              Rail and Subway
+            Elevator / Escalator
+            Traffic lights
+            Telecommunications
+            HVAC
+
+            SCADA History Lesson:
+            SCADA Systems started being implemented in the 1960’s to allow for more control and visibility to the equipment and processes. The term was first coined in the 70’s. There are 4 main ‘generations’ of SCADA approach that have evolved with the availability of newer technologies.
+            Monolithic (single main-frame control)
+            Distributed (localized controllers ‘distributed’ through the process)
+            Networked (controllers and equipment communicating over a local network)
+            Web-based (control data made accessible through web-browsers, data can be displayed from global sources) 
+
+            SCADA is a flavour of automation that is differentiated by its focus on operator input and data collection. Complete automation is often associated with the elimination of the need for people to be involved in the process. SCADA Systems enable operators/personnel to be more effective in their duties.
       </p>
       <p>Images for the Page 2</p>
-        <img src="#" alt="image for page">
-        <img src="#" alt="image for page">
+        <img src="/scada/images/MCCs.jpg" alt="MCC example">
+        <img src="/scada/images/old.jpg" alt="Old computer">
 
       </ul>
-      <h3>[Page 3]</h3>
+      <h3>SCADA Components</h3>
       <p>
-        [Written copy for the Page 3 here]
+        SCADA Components
+
+        Instrumentation
+        A SCADA System is only as valuable as the data it can collect and the things you can control with it. The instruments interface with the physical environment to collect data and operate the equipment.
+        
+        PLC / Controller
+        Programmable Logic Controllers are placed in the system to collect data from the instruments and translate them into a format that can be used in the programming and issue controls to the equipment.
+        
+        Communication / Telemetry
+        The data from the local control system needs to be brought back to the servers or ‘command centre’. If the whole system is in the same location, these can be directly connected to an ethernet network. For systems where there is a distance to cover, wireless radios or cellular data will transmit the data from location to location.
+        
+        HMI
+        Human Machine Interfaces provide users with a way to view and input information on the system. It will often have an overview the whole system status as well as screens to display and control specific portions/parts of the system.
+        
+        Historian Server
+        The SCADA System will be collecting data from the instrumentation and storing it in a database (usually a server). This allows users or other programs to access that data for display and analysis.
       </p>
       <p>Images for the Page 3</p>
-        <img src="#" alt="image for page3">
-        <img src="#" alt="image for page3">
-
+        <img src="/scada/images/Components.jpg" alt="SCADA diagram">
+        <img src="/scada/images/Panel.jpg" alt="SCADA panel">
+        <img src="/scada/images/Antenna.jpg" alt="Radio antenna">
       </ul>
       <hr>
       <h2>
@@ -166,13 +213,13 @@
       </p>
       <img src="#" alt="home page wireframe">
 
-      <h3>[Page 2]</h3>
+      <h3>Applications and History</h3>
       <p>         
         [Any additional details about page 2 that the wireframe does not make clear]
       </p>
       <img src="#" alt="page 2 wireframe">
 
-      <h3>[Page 3]</h3>
+      <h3>SCADA Components</h3>
       <p>         
         [Any additional details about page 3 that the wireframe does not make clear]
       </p>
