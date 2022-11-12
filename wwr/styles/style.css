@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Anybody&family=Hubballi:ital,wght@0,400;0,700;1,400&display=swap');
 
+/* Home Page CSS */
 #content {
     max-width: 1600px;
     margin: 0 auto;
@@ -232,6 +233,51 @@ main section img {
 }
 
 
+/* FAQ Page CSS */
+#type1 {
+    display: grid;
+    grid-template-columns: 30% 70%;
+    column-gap: 10px;
+    margin-bottom: 50px;
+    margin-top: -10px;
+    padding-right: 20px;
+    background-color:#A68A64;
+    align-items: center;    
+    text-align: justify;
+    border: #414833 solid 2px;
+}
+
+.type1img {
+    display: block;
+    width: 100%;
+    padding-right: 10px;
+
+}
+
+#type2 {
+    display:grid;
+    grid-template-columns: 70% 30%;
+    column-gap: 10px;
+    padding-right: 20px;
+    background-color:#6f7364;
+    color:beige;
+    text-align: justify;
+    align-items: center;
+    padding-left: 10px;
+    margin-bottom: 50px;
+    margin-top: -10px;
+    border: #582F0E solid 2px;
+}
+
+.type2img {
+    display: block;
+    width: 100%;
+    padding-left: 10px;
+}
+
+
+
+/* MEDIA CSS */
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
