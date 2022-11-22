@@ -1,0 +1,150 @@
+@import url("https://fonts.googleapis.com/css?family=Scada");
+
+/* Header Styling */
+
+header {
+    background-color: darkgrey;
+    display: grid;
+    grid-template-columns: 150px auto;
+    grid-template-rows: 100%;
+    height: 120px;
+}
+
+nav a {
+    text-align: center;
+    color: #16697A;
+    text-decoration: none;
+    padding: 35px;
+    font-family: "SCADA";
+    font-size: 130%;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+nav a:hover {
+    background-color: #FFA62B;
+    color: #16697A;
+}
+
+.logo {
+    height: 100px;
+    padding-left: 35px;
+    padding-top: 10px;
+}
+
+#logo_link:hover {
+    border: 3px solid #FFA62B;
+}
+
+/* Main Styling */
+
+    main {
+        margin-top: 20px;
+    }
+
+    h1 {
+        font-family: "SCADA";
+        text-align: center;
+    }
+
+    main h1 {
+        grid-column: 1/11;
+    }
+
+    #section1 {
+        display: grid;
+        grid-template-columns: 30% 70%;
+        grid-template-rows: 300px;    
+        column-gap: 10px;
+        text-align: justify;
+        align-items: center;
+        margin-bottom: 50px;
+        margin-top: 10px;
+        padding-right: 20px;
+        border: 2px solid #16697A;
+    }
+
+    #section2 {
+        width:80%;
+        margin: 0 auto;
+        display:grid;
+        grid-template-columns: 70% 30%;
+        grid-template-rows: 300px;    
+        text-align: right;
+        align-items: center;
+        column-gap: 10px;
+        padding-left: 10px;
+        padding-right: 10px;
+        margin-bottom: 50px;
+        border: 2px solid #16697A;
+        background-color: #16697A;
+        color: white;
+    }
+
+    #section1 p {
+        grid-column: 2/3;
+        display: block;
+        font-family: "SCADA", Helvetica, sans-serif;
+        max-height: 300px;
+    }
+
+    #section2 p {
+        grid-column: 1/2;
+        display: inline-block;
+        font-family: "SCADA", Helvetica, sans-serif;
+    }
+
+    #image1 {
+        grid-column: 1/2;
+        padding-right: 10px;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    #image2 {
+        grid-column: 2/3;   
+        max-height:100%;    
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+
+/* Footer Styling */
+
+footer {
+    background-color: darkgrey;
+    padding: 10px 0px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer div {
+    display:inline-block;
+    width:400px;
+}
+
+footer nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+footer nav a {
+    text-align: center;
+    color: #16697A;
+    text-decoration: none;
+    padding: 58px 35px;
+    font-family: "SCADA";
+    font-size: 130%;
+}
+
+footer nav a:hover {
+    background-color: #FFA62B;
+    color: #16697A;
+}

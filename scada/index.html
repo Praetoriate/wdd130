@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">    
+    <link type="text/css" rel="stylesheet" href="styles/style.css">
     <title>SCADA What?</title>
 </head>
 <body>
@@ -18,27 +19,31 @@
             <a href="site-plan.html">Site Plan</a>
         </nav>
     </header>
-    <main>
+    <main id="MainHome">
         <h1>What is this SCADA thing?</h1>
-        <div>
-            <img src="images/ControlRoom.jpg" alt="Big Control Room">
+        <div id="section1">
+            <img id="image1" src="images/ControlRoom.jpg" alt="Big Control Room">
             <p>
-                SCADA is an acronym and stands for Supervisory Control And Data Aquisition. This is also an explanation of what they purpose of the system is: -to provide control of equipment or processes. -to collect and usually display historical data about the equipment or process. A SCADA System sits in and on top of a control system. For example, imagine you have a light switch in your home for your living room lamp. That is a very simple control system for turning the light on and off. Now imagine that you want to be able to see on your computer if your light is currently on or off, toggle it on/off, and see a historical log of when it was turned on and off. That is where a SCADA System fits. It provides that additional layer to what would otherwise be a manual process (like having to get up off the couch to turn your light off). A SCADA system integrates hardware and software components, each with their own specific function, to comprise a rich-feature control and monitoring system.
+                <b>SCADA is an acronym and stands for Supervisory Control And Data Aquisition.</b><br>This is also an explanation of what they purpose of the system is: <br>-to provide control of equipment or processes. <br>-to collect and usually display historical data about the equipment or process. <br><br>A SCADA System sits in and on top of a control system. For example, imagine you have a light switch in your home for your living room lamp. That is a very simple control system for turning the light on and off. Now imagine that you want to be able to see on your computer if your light is currently on or off, toggle it on/off, and see a historical log of when it was turned on and off. That is where a SCADA System fits. It provides that additional layer to what would otherwise be a manual process (like having to get up off the couch to turn your light off). A SCADA system integrates hardware and software components, each with their own specific function, to comprise a rich-feature control and monitoring system.
             </p>
         </div>
-        <div>
-            <img src="images/Integrator.jpg" alt="Person doing industrial programming">
+        <div id="section2">
             <p>
-                This integration concept is so crucial that a company or person who designs, installs, or maintains a SCADA System is often called a ‘Systems Integrator’. To learn more about the components in a SCADA system, check out the Components page.
+                This integration concept is so crucial that a company or person who designs, installs, or maintains a SCADA System is often called a ‘Systems Integrator’.<br>To learn more about the components in a SCADA system, check out the Components page.
             </p>
+            <img id="image2" src="images/Integrator.jpg" alt="Person doing industrial programming">
         </div>
     </main>
     <footer>
-        <p>SCADA is control. - 2022 - Beau Travis</p>
-        <p><a href="index.html">Home</a></p>
-        <p><a href="https://en.wikipedia.org/wiki/SCADA">Wikepedia</a></p>
-        <p><a href="https://instrumentationtools.com/scada-training-course/">Get Started!<br>*no affiliation</a></p>
-        <p><a href="site-plan.html">Site Plan</a></p>
+        <div>
+            <h1>SCADA is control.<br>2022 - Beau Travis</h1>
+        </div>
+        <nav>
+            <p><a href="index.html">Home</a></p>
+            <p><a href="https://en.wikipedia.org/wiki/SCADA">Wikepedia</a></p>
+            <p><a href="https://instrumentationtools.com/scada-training-course/">Get Started!</a></p>
+            <p><a href="site-plan.html">Site Plan</a></p>
+        </nav>
     </footer>
 </body>
 </html>
