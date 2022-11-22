@@ -73,7 +73,7 @@ nav a:hover {
         display:grid;
         grid-template-columns: 70% 30%;
         grid-template-rows: 300px;    
-        text-align: right;
+        text-align: center;
         align-items: center;
         column-gap: 10px;
         padding-left: 10px;
