@@ -3,14 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">    
+    <link type="text/css" rel="stylesheet" href="styles/style.css">
     <title>SCADA Components</title>
 </head>
 <body>
     <header>
-        <a id="logo_link" href="index.html">
-            <img class="logo" src="images/scadalogo.png" alt="SCADA logo image">
-        </a>
+        <div class="dropdown">
+            <img id="logo_link" class="logo" src="images/scadalogo.png" alt="SCADA logo image">
+            <div class="dropdown-content">
+              <a href="index.html">Home</a>
+              <a href="apphistory.html">Applications<br>& History</a>
+              <a href="components.html">SCADA Components</a>
+              <a href="site-plan.html">Site Plan</a>
+            </div>
+        </div> 
         <nav>
             <a href="index.html">Home</a>
             <a href="apphistory.html">Applications<br>& History</a>
