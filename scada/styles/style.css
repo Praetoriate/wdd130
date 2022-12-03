@@ -196,7 +196,6 @@ nav a:hover {
     width: 90%;
     display: grid;
     grid-template-columns: 25% 25% 25% 25%;
-    align-items: top;
     margin: 0 auto;
     margin-top:-80px;
 }
