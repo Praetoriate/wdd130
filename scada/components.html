@@ -27,37 +27,43 @@
     </header>
     <main>
         <h1>Components and Such</h1>
-        <div>            
-            <p>
-                SCADA Components<br>
-                Instrumentation<br>
+        <div id="section5">
+            <h2>SCADA Components</h2>           
+            <p>                
+                <b>Instrumentation</b><br>
                 A SCADA System is only as valuable as the data it can collect and the things you can control with it. The instruments interface with the physical environment to collect data and operate the equipment.<br>
-                PLC / Controller<br>
+                <br><b>PLC / Controller</b><br>
                 Programmable Logic Controllers are placed in the system to collect data from the instruments and translate them into a format that can be used in the programming and issue controls to the equipment.<br>
-                Communication / Telemetry<br>
+                <br><b>Communication / Telemetry</b><br>
                 The data from the local control system needs to be brought back to the servers or ‘command centre’. If the whole system is in the same location, these can be directly connected to an ethernet network. For systems where there is a distance to cover, wireless radios or cellular data will transmit the data from location to location.<br>
-                HMI<br>
+                <br><b>HMI</b><br>
                 Human Machine Interfaces provide users with a way to view and input information on the system. It will often have an overview the whole system status as well as screens to display and control specific portions/parts of the system.<br>
-                Historian Server<br>
+                <br><b>Historian Server</b><br>
                 The SCADA System will be collecting data from the instrumentation and storing it in a database (usually a server). This allows users or other programs to access that data for display and analysis.
             </p>
         </div>
-        <img src="images/Components.jpg" alt="Diagram of a SCADA network">
-        <div>
-            <h2>A PLC Panel</h2>
-            <img src="images/Panel.jpg" alt="Typical PLC panel">
-        </div>
-        <div>
-            <h2>900 MHz Radio Tower</h2>
-            <img src="images/Antenna.jpg" alt="Radio Tower and Antenna">
+        <img id="image5" src="images/Components.jpg" alt="Diagram of a SCADA network">
+        <div id="blocks">
+            <div id="element1">
+                <h2>A PLC Panel</h2>
+                <img id='image6' src="images/Panel.jpg" alt="Typical PLC panel">
+            </div>
+            <div id="element2">
+                <h2>900 MHz Radio Tower</h2>
+                <img id='image7' src="images/Antenna.jpg" alt="Radio Tower and Antenna">
+            </div>
         </div>
     </main>
     <footer>
-        <p>SCADA is control. - 2022 - Beau Travis</p>
-        <p><a href="index.html">Home</a></p>
-        <p><a href="https://en.wikipedia.org/wiki/SCADA">Wikepedia</a></p>
-        <p><a href="https://instrumentationtools.com/scada-training-course/">Get Started!<br>*no affiliation</a></p>
-        <p><a href="site-plan.html">Site Plan</a></p>
+        <div>
+            <h1>SCADA is control.<br>2022 - Beau Travis</h1>
+        </div>
+        <nav>
+            <p><a href="index.html">Home</a></p>
+            <p><a href="https://en.wikipedia.org/wiki/SCADA">Wikepedia</a></p>
+            <p><a href="https://instrumentationtools.com/scada-training-course/">Get Started!</a></p>
+            <p><a href="site-plan.html">Site Plan</a></p>
+        </nav>
     </footer>
 </body>
 </html>
